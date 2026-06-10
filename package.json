@@ -1,0 +1,43 @@
+{
+  "name": "service_request_management_system",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sap/cds": "^9"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2.4.0",
+    "cds-plugin-ui5": "^0.13.0"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-project1": "cds watch --open project1/index.html?sap-ui-xx-viewCache=false --livereload false"
+  },
+  "private": true,
+  "workspaces": [
+    "app/*"
+  ],
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "crendentials": {
+          "url": "db/retailstore.db"
+        }
+      }
+    },
+    "auth": {
+      "kind": "mocked",
+      "users": {
+        "alice": {
+          "password": "123",
+          "roles":[
+            "admin"
+          ]
+        }
+      }
+    },
+    "sapux": [
+      "app/project1"
+    ]
+  }
+}
