@@ -76,7 +76,7 @@ module.exports = cds.service.impl(async function () {
                 .where({ ID: ID })   // ✅ ID only — IsActiveEntity is not a real DB column
         );
 
-        // Step 3: Check ticket exists
+
         if (!ticket) {
             return req.error(404, 'Ticket not found.');
         }
