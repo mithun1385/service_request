@@ -81,7 +81,7 @@ module.exports = cds.service.impl(async function () {
             return req.error(404, 'Ticket not found.');
         }
 
-        // Step 4: Check if already closed
+
         if (
             ticket.status === 'closed'    ||
             ticket.status === 'resolved'  ||

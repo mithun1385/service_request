@@ -1,5 +1,0 @@
-ID,customerName,email,phone,city,status,createdAt,modifiedAt,modifiedBy,createdBy
-550e8400-e29b-41d4-a716-446655440001,Rajesh Kumar,rajesh.kumar@gmail.com,9876543210,Chennai,ACTIVE,2026-06-01T09:00:00Z,2026-06-01T09:00:00Z,admin,admin
-550e8400-e29b-41d4-a716-446655440002,Priya Sharma,priya.sharma@gmail.com,9876543211,Bangalore,ACTIVE,2026-06-01T09:00:00Z,2026-06-01T09:00:00Z,admin,admin
-550e8400-e29b-41d4-a716-446655440003,Arun Prakash,arun.prakash@gmail.com,9876543212,Hyderabad,ACTIVE,2026-06-01T09:00:00Z,2026-06-01T09:00:00Z,admin,admin
-550e8400-e29b-41d4-a716-446655440004,Meena Reddy,meena.reddy@gmail.com,9876543213,Mumbai,ACTIVE,2026-06-01T09:00:00Z,2026-06-01T09:00:00Z,admin,admin

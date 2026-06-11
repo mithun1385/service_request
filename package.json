@@ -6,6 +6,7 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^2.4.0",
+    "@sap/cds-dk": "^9",
     "cds-plugin-ui5": "^0.13.0"
   },
   "scripts": {
@@ -30,7 +31,7 @@
       "users": {
         "alice": {
           "password": "123",
-          "roles":[
+          "roles": [
             "admin"
           ]
         }
